@@ -1,4 +1,4 @@
- #include <stdio.h>
+#include <stdio.h>
 #include <math.h>
 
 int soma(int pva, int pvb);
@@ -240,19 +240,19 @@ int matriz(){
     return 0;
 }
 int bask(){
-    int a,b,c;
+    float a,b,c;
     float B1,B2,D;
 
     puts("Insira o valor de a:");
-    scanf("%d", &a);
+    scanf("%f", &a);
 
     puts("Insira o valor de b:");
-    scanf("%d", &b);
+    scanf("%f", &b);
 
     puts("Insira o valor de c:");
-    scanf("%d", &c);
+    scanf("%f", &c);
     D = (4*a*c);
-    int b2;
+    float b2;
     b2 = b*b;
 
     B1 = ((-b+sqrt((b2 - D)))/(2*a));
