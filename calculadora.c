@@ -241,7 +241,7 @@ int matriz(){
 }
 int bask(){
     int a,b,c;
-    int B1,B2,D;
+    float B1,B2,D;
 
     puts("Insira o valor de a:");
     scanf("%d", &a);
@@ -258,7 +258,7 @@ int bask(){
     B1 = ((-b+sqrt((b2 - D)))/(2*a));
     B2 = ((-b-sqrt((b2 - D)))/(2*a));
     
-    printf("o resultado de baskara são x1 = %d e x2 =%d\n", B1,B2);
+    printf("o resultado de baskara são x1 = %f e x2 =%f\n", B1,B2);
 
 
     return 0;
