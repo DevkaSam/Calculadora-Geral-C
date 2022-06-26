@@ -4,7 +4,7 @@
 int soma(int pva, int pvb);
 int sub(int pva, int pvb);
 int multi(int pva, int pvb);
-int div(int pva, int pvb);
+int div(int pva, int pvb); 
 int bask();
 void form();
 int matriz();
